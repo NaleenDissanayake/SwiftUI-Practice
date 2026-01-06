@@ -1,0 +1,49 @@
+Counter Card View
+UI
+
+A simple card-style view with:
+
+Title text
+
+A large number in the center
+
+Two buttons at the bottom: – and +
++----------------------+
+|  Counter             |
+|                      |
+|        0             |
+|                      |
+|  [-]            [+]  |
++----------------------+
+
+Functional Requirements
+
+Initial value is 0
+
+Tapping + increments by 1
+
+Tapping – decrements by 1
+
+Value must not go below 0
+
+UI Requirements
+
+Card has:
+
+Rounded corners
+
+Light shadow
+
+Padding
+
+Number text:
+
+Large font
+
+Bold
+
+Buttons:
+
+Tappable area not too small
+
+Visually separated
