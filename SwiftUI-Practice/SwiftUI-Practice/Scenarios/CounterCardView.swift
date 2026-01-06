@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CounterCardView: View {
-  @State var value: Int = 0
+  @State private var value: Int = 0
     
     var body: some View {
         VStack(alignment:.center, spacing: 30) {
