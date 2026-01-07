@@ -1,0 +1,30 @@
+Users List with Load State
+UI
+
+A screen titled “Users” which can be in 4 states:
+
+Idle: show a “Load” button
+
+Loading: show a centered ProgressView() + “Loading…”
+
+Empty: show an icon + message “No users found”
+
+Error: show an error message + “Retry” button
+
+Loaded: show a list of user names
+
+Functional requirements
+
+Press Load → switch to loading → after 1.5s simulate result:
+
+If mode == .loaded: show list of 5 names
+
+If mode == .empty: show empty state UI
+
+If mode == .error: show error UI
+
+Add a segmented picker at top:
+
+Loaded | Empty | Error
+
+This controls the simulated outcome for the next load.
