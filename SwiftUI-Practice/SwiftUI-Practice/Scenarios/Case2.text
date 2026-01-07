@@ -1,0 +1,26 @@
+List + Single Selection (Radio-style)
+UI
+
+A card containing a list of items (like simple settings):
+
+Title: “Select a Plan”
+
+4 rows: Free, Basic, Pro, Enterprise
+
+Each row shows:
+
+text on left
+
+checkmark on right for selected item
+
+Functional requirements
+
+Only one can be selected at a time
+
+Default selected: Free
+
+Tapping a row selects it
+
+Selected row should have:
+
+slightly different background OR bold text
