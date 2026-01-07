@@ -36,7 +36,8 @@ struct SelectionView: View {
                     }
                 }
             }
-            .padding()
+            .listStyle(.plain)
+            .scrollContentBackground(.hidden)
         }
         .padding()
         .background(RoundedRectangle(cornerRadius: 10, style: .continuous)
