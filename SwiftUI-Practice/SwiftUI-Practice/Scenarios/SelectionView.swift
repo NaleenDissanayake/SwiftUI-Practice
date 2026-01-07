@@ -8,15 +8,15 @@
 import SwiftUI
 
 enum Plan: String, CaseIterable {
-    case Free
-    case Basic
-    case Pro
-    case Enterprise
+    case free = "Free"
+    case basic = "Basic"
+    case pro = "Pro"
+    case enterprise = "Enterprise"
 }
 
 struct SelectionView: View {
     
-    @State private var selectedPlan: Plan = .Free
+    @State private var selectedPlan: Plan = .free
     
     var body: some View {
         VStack(spacing: 20) {
